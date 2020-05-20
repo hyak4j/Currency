@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Currency</string>
+    <string name="txt_ntd">新台幣</string>
+    <string name="txt_go">計算</string>
+    <string name="txt_jp">日幣</string>
+    <string name="txt_us">美金</string>
+    <string name="txt_none">無</string>
+    <string name="Problem">問題</string>
+</resources>

@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (edtNTD.getText().toString().equals("")){
                     new AlertDialog.Builder(MainActivity.this)
-                            .setTitle("Problem")
+                            .setTitle(R.string.Problem)
                             .setMessage("Please enter your NTD amount!")
                             .setPositiveButton("OK", null)
                             .setCancelable(false)
@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
     private Float mNTD_to_US(Float nNTD) {
         Float nUSD = nNTD / 30.9f;
         return nUSD;
+
     }
 
 
