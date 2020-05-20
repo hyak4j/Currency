@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Currency</string>
+    <string name="app_name">貨幣換算</string>
     <string name="txt_ntd">新台幣</string>
     <string name="txt_go">計算</string>
     <string name="txt_jp">日幣</string>
     <string name="txt_us">美金</string>
     <string name="txt_none">無</string>
     <string name="Problem">問題</string>
+    <string name="result">計算結果</string>
+    <string name="usd_is">美金為</string>
+    <string name="ok">確認</string>
+    <string name="alert">請輸入新台幣金額</string>
 </resources>

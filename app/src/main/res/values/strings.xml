@@ -6,4 +6,8 @@
     <string name="txt_us">US</string>
     <string name="txt_none">NONE</string>
     <string name="Problem">Problem</string>
+    <string name="result">Result</string>
+    <string name="usd_is">\"USD is \"</string>
+    <string name="ok">OK</string>
+    <string name="alert">Please enter your NTD amount!</string>
 </resources>

@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
                 if (edtNTD.getText().toString().equals("")){
                     new AlertDialog.Builder(MainActivity.this)
                             .setTitle(R.string.Problem)
-                            .setMessage("Please enter your NTD amount!")
-                            .setPositiveButton("OK", null)
+                            .setMessage(R.string.alert)
+                            .setPositiveButton(R.string.ok, null)
                             .setCancelable(false)
                             .show();
                 }else {
@@ -44,9 +44,9 @@ public class MainActivity extends AppCompatActivity {
                     txtUS.setText(rUSD);
                     txtJP.setText(rJP);
                     new AlertDialog.Builder(MainActivity.this)
-                            .setTitle("Result")
-                            .setMessage("USD is " + rUSD)
-                            .setPositiveButton("OK", null)
+                            .setTitle(R.string.result)
+                            .setMessage(getString(R.string.usd_is) + rUSD)
+                            .setPositiveButton(R.string.ok, null)
                             .setCancelable(false)
                             .show();
                 }
